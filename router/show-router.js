@@ -1,5 +1,5 @@
 const express = require('express')
-const { Show } = require('../models/Show')
+const { Show, User } = require('../models/index')
 const router = express.Router()
 
 router.route('/shows')
